@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: gunicorn parking_incidents_app.wsgi --log-file -
